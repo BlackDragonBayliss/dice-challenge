@@ -14,9 +14,11 @@ var image2 = document.querySelectorAll("img")[1].setAttribute("src",randomDiceIm
 if (randomDiceNumber1 > randomDiceNumber2) {
   document.querySelector("h1").innerHTML = "🚩 Player 1 wins!"
 }
+//if player 2 wins
 else if (randomDiceNumber2 > randomDiceNumber1){
   document.querySelector("h1").innerHTML = "Player 2 wins! 🚩"
 }
+//else draw
 else{
   document.querySelector("h1").innerHTML = "Draw!"
 }
